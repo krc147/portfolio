@@ -1,0 +1,68 @@
+h1 {
+  color: #cc5200;
+  border-style: double;
+  border-width: 2px;
+  border-color: red;
+  width: 80%;
+}
+h2 {
+  color: #800000;
+  border-style: double;
+  border-width: 1px;
+  border-color: red;
+  width: 50%;
+}
+p {
+  color: hsl(30, 100%, 15%);
+}
+body {
+  background-color: #ffd1b3;
+}
+#about-me {
+  color: purple;
+  font-weight: lighter;
+}
+.header-mod {
+  color: orange;
+}
+.green-text {
+  color: green;
+  font-weight: bold;
+}
+.italic {
+  font-style: italic;
+}
+.important {
+  font-weight: bolder;
+}
+.cap-highlight:hover {
+  background-color: hsl(120, 100%, 80%, 0.2);
+}
+.border-mod {
+  border-style: ridge;
+}
+a:visited {
+  color: red;
+}
+a[href="about-me.html"] {
+  background-color: hsl(210, 100%, 70%, 0.5);
+  padding: .1rem;
+}
+a[href="morning-routine.html"] {
+  background-color: hsl(330, 100%, 75%, 0.5);
+  padding: .1rem;
+}
+a[href="index.html"] {
+  background-color: hsl(48, 100%, 60%, 0.5);
+  padding: .1rem;
+}
+a[href="#"] {
+  background-color: hsl(264, 100%, 75%, 0.5);
+  padding: .1rem;
+}
+img {
+  border-style: dotted;
+  border-color: #993300;
+  border-width: 5px;
+  width: 35%;
+}
