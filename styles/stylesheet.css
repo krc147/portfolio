@@ -18,10 +18,7 @@ p {
 body {
   background-color: #ffd1b3;
 }
-#about-me {
-  color: purple;
-  font-weight: lighter;
-}
+
 .header-mod {
   color: orange;
 }
@@ -38,9 +35,7 @@ body {
 .cap-highlight:hover {
   background-color: hsl(120, 100%, 80%, 0.2);
 }
-.border-mod {
-  border-style: ridge;
-}
+
 a:visited {
   color: red;
 }
@@ -65,4 +60,24 @@ img {
   border-color: #993300;
   border-width: 5px;
   width: 35%;
+}
+.center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.about-me-flexbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+header > h1{
+  font-family: "Noto Serif", serif;
+  font-weight: 700;
+}
+
+main > p{
+  font-family: Lato, sans-serif;
+  font-weight: 400;
 }
