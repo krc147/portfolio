@@ -1,65 +1,50 @@
 h1 {
-  color: #cc5200;
-  border-style: double;
-  border-width: 2px;
-  border-color: red;
-  width: 80%;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(210, 100%, 80%);
+  padding: 3rem;
+  width: 100%;
 }
 h2 {
   color: #800000;
-  border-style: double;
-  border-width: 1px;
-  border-color: red;
   width: 50%;
 }
 p {
   color: hsl(30, 100%, 15%);
 }
 body {
-  background-color: #ffd1b3;
+  background-color: hsl(0, 0%, 100%);
 }
 
-.header-mod {
-  color: orange;
-}
-.green-text {
-  color: green;
-  font-weight: bold;
-}
 .italic {
   font-style: italic;
 }
 .important {
   font-weight: bolder;
 }
-.cap-highlight:hover {
-  background-color: hsl(120, 100%, 80%, 0.2);
+a {
+  transition-property: background-color;
+  transition-duration: 2s;
+}
+a:hover {
+  background-color: hsl(48, 100%, 60%);
 }
 
 a:visited {
-  color: red;
+  color: blue;
 }
-a[href="about-me.html"] {
-  background-color: hsl(210, 100%, 70%, 0.5);
-  padding: .1rem;
+section ul li:nth-child(odd) {
+  background-color: hsl(0, 0%, 50%);
+  width: 50%;
 }
-a[href="morning-routine.html"] {
-  background-color: hsl(330, 100%, 75%, 0.5);
-  padding: .1rem;
+section article:nth-child(even) {
+  background-color: hsl(0, 0%, 90%);
 }
-a[href="index.html"] {
-  background-color: hsl(48, 100%, 60%, 0.5);
-  padding: .1rem;
-}
-a[href="#"] {
-  background-color: hsl(264, 100%, 75%, 0.5);
-  padding: .1rem;
-}
+
 img {
   border-style: dotted;
   border-color: #993300;
   border-width: 5px;
-  width: 35%;
+  width: 50%;
 }
 .center {
   display: flex;
@@ -80,4 +65,18 @@ header > h1{
 main > p{
   font-family: Lato, sans-serif;
   font-weight: 400;
+}
+
+.nav-column {
+  padding-right: 8%;
+  padding-bottom: 4%;
+  float: left;
+  width: 20%;
+}
+
+.main-column {
+  padding-left: 15%;
+  padding-bottom: 4%;
+  float:  right;
+  width: 70%
 }
