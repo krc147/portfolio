@@ -4,9 +4,15 @@ h1 {
   padding: 3rem;
   width: 100%;
 }
+
 h2 {
   color: #800000;
   width: 50%;
+  transition-property: font-size;
+  transition-duration: 2s;
+}
+h2:hover {
+  font-size: 35px;
 }
 p {
   color: hsl(30, 100%, 15%);
@@ -32,10 +38,7 @@ a:hover {
 a:visited {
   color: blue;
 }
-section ul li:nth-child(odd) {
-  background-color: hsl(0, 0%, 50%);
-  width: 50%;
-}
+
 section article:nth-child(even) {
   background-color: hsl(0, 0%, 90%);
 }
